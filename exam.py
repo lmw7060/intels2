@@ -154,10 +154,57 @@
 #     for col in range(M):
 #         print(A[row][col] + B[row][col], end=' ')
 #     print()
-x=0
-for _ in range(9):
-    for i in range(9):
-        a=int(input())
-        if a>x:
-            x=a
-print(x)
+
+# x=0
+# for _ in range(9):
+#     for i in range(9):
+#         a=int(input())
+#         if a>x:
+#             x=a
+# print(x)
+
+# table = [list(map(int,input().split())) for _ in range(9)]
+# max = 0
+# x , y = 0
+# for i in range(9):
+#     for j in range(9):
+#         if max<=table[x][y]:
+#             x=i+1
+#             y=j+1
+#             max=table[x][y]
+#
+# print(max)
+# print(x, y)
+
+# A = input()
+# B = input()
+# C = input()
+# D = input()
+# E = input()
+# x = max(len(A),len(B),len(C),len(D),len(E))
+# for i in range(x+1):
+#     print(A[i]+B[i]+C[i]+D[i]+E[i])
+
+# for _ in range(10):
+#     print('*')
+#
+# for i in range(10):
+#     print('*'*i)
+
+# N = int(input())
+# x = []
+# for i in range(1, N+1, -1):
+#     x.append(i)
+# print(x)
+# while len(x)==2:
+#     x.pop()
+#     a = x.pop()
+#     x.insert(0, a)
+# print(x)
+
+# word = [input() for _ in range(5)]
+# for i in range(15):
+#     for j in range(5):
+#         if i<len(word[j]):
+#             print(word[j][i], end='')
+
